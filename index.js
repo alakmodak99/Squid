@@ -1,17 +1,6 @@
-// document.addEventListener('keypress', function(e) {
-//     alert("Key: " + e.code + ", Code: " + e.charCode)
-//   });
-  // document.addEventListener('keypress', function(e) {
-  //   console.log("Key: " + e.code + ", Code: " + e.charCode)
-  // });
-
-  // document.onkeydown = checkKey;
-
-
 
   let m=0,n=125
 function checkKey(e) {
-
     e = e || window.event;
     console.log(m)
     console.log(n)
@@ -47,10 +36,8 @@ function checkKey(e) {
          console.log("Right");
          if(n>2){
           document.getElementById("ball").style.right = `${n-=2}px`
-         }
-         
+         }         
       }
-
     }
 }
 let x=10.00

@@ -68,6 +68,7 @@ document.getElementById("h").addEventListener("click",()=>{
       document.onkeydown = checkLKey;
       function checkLKey(e){
         if(e.keyCode=="37" || e.keyCode=="38" || e.keyCode=="39" || e.keyCode== "40"){
+          document.getElementById("exp").style.display="block"
           alert("You lose")
           window.location.reload()
         }
